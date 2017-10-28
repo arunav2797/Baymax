@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1860AB571FA4DD4200618E53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860AB561FA4DD4200618E53 /* AppDelegate.swift */; };
+		1860AB591FA4DD4200618E53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860AB581FA4DD4200618E53 /* ViewController.swift */; };
+		1860AB5C1FA4DD4200618E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860AB5A1FA4DD4200618E53 /* Main.storyboard */; };
+		1860AB5E1FA4DD4200618E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1860AB5D1FA4DD4200618E53 /* Assets.xcassets */; };
+		1860AB611FA4DD4200618E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860AB5F1FA4DD4200618E53 /* LaunchScreen.storyboard */; };
+		1860AB6C1FA4DD4200618E53 /* BaymaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860AB6B1FA4DD4200618E53 /* BaymaxTests.swift */; };
+		1860AB771FA4DD4200618E53 /* BaymaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860AB761FA4DD4200618E53 /* BaymaxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1860AB681FA4DD4200618E53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1860AB4B1FA4DD4200618E53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1860AB521FA4DD4200618E53;
+			remoteInfo = Baymax;
+		};
+		1860AB731FA4DD4200618E53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1860AB4B1FA4DD4200618E53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1860AB521FA4DD4200618E53;
+			remoteInfo = Baymax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1860AB531FA4DD4200618E53 /* Baymax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baymax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1860AB561FA4DD4200618E53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1860AB581FA4DD4200618E53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1860AB5B1FA4DD4200618E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1860AB5D1FA4DD4200618E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1860AB601FA4DD4200618E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1860AB621FA4DD4200618E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1860AB671FA4DD4200618E53 /* BaymaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaymaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1860AB6B1FA4DD4200618E53 /* BaymaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaymaxTests.swift; sourceTree = "<group>"; };
+		1860AB6D1FA4DD4200618E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1860AB721FA4DD4200618E53 /* BaymaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaymaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1860AB761FA4DD4200618E53 /* BaymaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaymaxUITests.swift; sourceTree = "<group>"; };
+		1860AB781FA4DD4200618E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1860AB501FA4DD4200618E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860AB641FA4DD4200618E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860AB6F1FA4DD4200618E53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1860AB4A1FA4DD4200618E53 = {
+			isa = PBXGroup;
+			children = (
+				1860AB551FA4DD4200618E53 /* Baymax */,
+				1860AB6A1FA4DD4200618E53 /* BaymaxTests */,
+				1860AB751FA4DD4200618E53 /* BaymaxUITests */,
+				1860AB541FA4DD4200618E53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1860AB541FA4DD4200618E53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1860AB531FA4DD4200618E53 /* Baymax.app */,
+				1860AB671FA4DD4200618E53 /* BaymaxTests.xctest */,
+				1860AB721FA4DD4200618E53 /* BaymaxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1860AB551FA4DD4200618E53 /* Baymax */ = {
+			isa = PBXGroup;
+			children = (
+				1860AB561FA4DD4200618E53 /* AppDelegate.swift */,
+				1860AB581FA4DD4200618E53 /* ViewController.swift */,
+				1860AB5A1FA4DD4200618E53 /* Main.storyboard */,
+				1860AB5D1FA4DD4200618E53 /* Assets.xcassets */,
+				1860AB5F1FA4DD4200618E53 /* LaunchScreen.storyboard */,
+				1860AB621FA4DD4200618E53 /* Info.plist */,
+			);
+			path = Baymax;
+			sourceTree = "<group>";
+		};
+		1860AB6A1FA4DD4200618E53 /* BaymaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				1860AB6B1FA4DD4200618E53 /* BaymaxTests.swift */,
+				1860AB6D1FA4DD4200618E53 /* Info.plist */,
+			);
+			path = BaymaxTests;
+			sourceTree = "<group>";
+		};
+		1860AB751FA4DD4200618E53 /* BaymaxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1860AB761FA4DD4200618E53 /* BaymaxUITests.swift */,
+				1860AB781FA4DD4200618E53 /* Info.plist */,
+			);
+			path = BaymaxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1860AB521FA4DD4200618E53 /* Baymax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1860AB7B1FA4DD4200618E53 /* Build configuration list for PBXNativeTarget "Baymax" */;
+			buildPhases = (
+				1860AB4F1FA4DD4200618E53 /* Sources */,
+				1860AB501FA4DD4200618E53 /* Frameworks */,
+				1860AB511FA4DD4200618E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Baymax;
+			productName = Baymax;
+			productReference = 1860AB531FA4DD4200618E53 /* Baymax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1860AB661FA4DD4200618E53 /* BaymaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1860AB7E1FA4DD4200618E53 /* Build configuration list for PBXNativeTarget "BaymaxTests" */;
+			buildPhases = (
+				1860AB631FA4DD4200618E53 /* Sources */,
+				1860AB641FA4DD4200618E53 /* Frameworks */,
+				1860AB651FA4DD4200618E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1860AB691FA4DD4200618E53 /* PBXTargetDependency */,
+			);
+			name = BaymaxTests;
+			productName = BaymaxTests;
+			productReference = 1860AB671FA4DD4200618E53 /* BaymaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1860AB711FA4DD4200618E53 /* BaymaxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1860AB811FA4DD4200618E53 /* Build configuration list for PBXNativeTarget "BaymaxUITests" */;
+			buildPhases = (
+				1860AB6E1FA4DD4200618E53 /* Sources */,
+				1860AB6F1FA4DD4200618E53 /* Frameworks */,
+				1860AB701FA4DD4200618E53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1860AB741FA4DD4200618E53 /* PBXTargetDependency */,
+			);
+			name = BaymaxUITests;
+			productName = BaymaxUITests;
+			productReference = 1860AB721FA4DD4200618E53 /* BaymaxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1860AB4B1FA4DD4200618E53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Rishabh Mittal";
+				TargetAttributes = {
+					1860AB521FA4DD4200618E53 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					1860AB661FA4DD4200618E53 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1860AB521FA4DD4200618E53;
+					};
+					1860AB711FA4DD4200618E53 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1860AB521FA4DD4200618E53;
+					};
+				};
+			};
+			buildConfigurationList = 1860AB4E1FA4DD4200618E53 /* Build configuration list for PBXProject "Baymax" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1860AB4A1FA4DD4200618E53;
+			productRefGroup = 1860AB541FA4DD4200618E53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1860AB521FA4DD4200618E53 /* Baymax */,
+				1860AB661FA4DD4200618E53 /* BaymaxTests */,
+				1860AB711FA4DD4200618E53 /* BaymaxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1860AB511FA4DD4200618E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1860AB611FA4DD4200618E53 /* LaunchScreen.storyboard in Resources */,
+				1860AB5E1FA4DD4200618E53 /* Assets.xcassets in Resources */,
+				1860AB5C1FA4DD4200618E53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860AB651FA4DD4200618E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860AB701FA4DD4200618E53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1860AB4F1FA4DD4200618E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1860AB591FA4DD4200618E53 /* ViewController.swift in Sources */,
+				1860AB571FA4DD4200618E53 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860AB631FA4DD4200618E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1860AB6C1FA4DD4200618E53 /* BaymaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860AB6E1FA4DD4200618E53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1860AB771FA4DD4200618E53 /* BaymaxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1860AB691FA4DD4200618E53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1860AB521FA4DD4200618E53 /* Baymax */;
+			targetProxy = 1860AB681FA4DD4200618E53 /* PBXContainerItemProxy */;
+		};
+		1860AB741FA4DD4200618E53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1860AB521FA4DD4200618E53 /* Baymax */;
+			targetProxy = 1860AB731FA4DD4200618E53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1860AB5A1FA4DD4200618E53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1860AB5B1FA4DD4200618E53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1860AB5F1FA4DD4200618E53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1860AB601FA4DD4200618E53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1860AB791FA4DD4200618E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1860AB7A1FA4DD4200618E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1860AB7C1FA4DD4200618E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3PHPU2MG9;
+				INFOPLIST_FILE = Baymax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAM.Baymax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1860AB7D1FA4DD4200618E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3PHPU2MG9;
+				INFOPLIST_FILE = Baymax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAM.Baymax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1860AB7F1FA4DD4200618E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3PHPU2MG9;
+				INFOPLIST_FILE = BaymaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAM.BaymaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baymax.app/Baymax";
+			};
+			name = Debug;
+		};
+		1860AB801FA4DD4200618E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3PHPU2MG9;
+				INFOPLIST_FILE = BaymaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAM.BaymaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baymax.app/Baymax";
+			};
+			name = Release;
+		};
+		1860AB821FA4DD4200618E53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3PHPU2MG9;
+				INFOPLIST_FILE = BaymaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAM.BaymaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Baymax;
+			};
+			name = Debug;
+		};
+		1860AB831FA4DD4200618E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3PHPU2MG9;
+				INFOPLIST_FILE = BaymaxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RAM.BaymaxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Baymax;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1860AB4E1FA4DD4200618E53 /* Build configuration list for PBXProject "Baymax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860AB791FA4DD4200618E53 /* Debug */,
+				1860AB7A1FA4DD4200618E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1860AB7B1FA4DD4200618E53 /* Build configuration list for PBXNativeTarget "Baymax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860AB7C1FA4DD4200618E53 /* Debug */,
+				1860AB7D1FA4DD4200618E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1860AB7E1FA4DD4200618E53 /* Build configuration list for PBXNativeTarget "BaymaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860AB7F1FA4DD4200618E53 /* Debug */,
+				1860AB801FA4DD4200618E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1860AB811FA4DD4200618E53 /* Build configuration list for PBXNativeTarget "BaymaxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860AB821FA4DD4200618E53 /* Debug */,
+				1860AB831FA4DD4200618E53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1860AB4B1FA4DD4200618E53 /* Project object */;
+}
