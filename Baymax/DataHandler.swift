@@ -38,7 +38,7 @@ class DataHandler: NSObject {
     
     func fetchAll(completion: @escaping (Int) -> ()) {
 
-        let urlString1 = "http://vucode.adgvit.com/categories"
+        let urlString1 = "http://13.127.127.57:5000/categories"
         let url1 = NSURL(string: urlString1)
         var request1 = URLRequest(url: url1 as! URL)
         request1.httpMethod = "get"
@@ -97,7 +97,7 @@ class DataHandler: NSObject {
         let dataproc: [String:Any] = ["symptom1":s1, "symptom2":s2, "symptom3":s3, "symptom4":s4, "symptom5":s5]
         let jsonDataproc = try? JSONSerialization.data(withJSONObject: dataproc, options: .prettyPrinted)
         
-        let urlStringproc = "http://vucode.adgvit.com/disease"
+        let urlStringproc = "http://13.127.127.57:5000/disease"
         
         let urlproc = NSURL(string: urlStringproc)
         var requestproc = URLRequest(url: urlproc! as URL)

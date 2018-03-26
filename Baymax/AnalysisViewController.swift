@@ -2,8 +2,8 @@
 //  AnalysisViewController.swift
 //  Baymax
 //
-//  Created by Rishabh Mittal on 29/10/17.
-//  Copyright © 2017 Rishabh Mittal. All rights reserved.
+//
+//  Copyright ©  . All rights reserved.
 //
 
 import UIKit
@@ -24,7 +24,7 @@ class AnalysisViewController: UIViewController, UICollectionViewDataSource, UICo
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         setGradientBackground()
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3.5, execute: {
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 7, execute: {
             if analysedCollection.count == 0 {
                 let backHandler = { (action:UIAlertAction!) -> Void in
                     addedItems.removeAll()

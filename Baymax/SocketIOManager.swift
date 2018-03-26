@@ -15,7 +15,7 @@ var diseaseTBroadcast = ""
 class SocketIOManager: NSObject {
     static let sharedInstance = SocketIOManager()
 
-    var socket: SocketIOClient = SocketIOClient(socketURL: NSURL(string: "http://vucode.adgvit.com:3000")! as URL)
+    var socket: SocketIOClient = SocketIOClient(socketURL: NSURL(string: "http://13.127.127.57:5001")! as URL)
     
     func establishConnection() {
         socket.connect()
