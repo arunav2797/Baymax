@@ -8,11 +8,7 @@ Baymax is a solution developed under 36 hours during a hackathon conducted by Go
 The interface essentially takes 5 symptoms as input from the user via a beautifully crafted UI, and returns the probability of several diseases mapped to the sent inputs.
 
 ## Screenshots
-![alt text](https://github.com/rishabh19038/Baymax/blob/master/Screenshots/1.png "Dashboard Screenshot")
-![alt text](https://github.com/rishabh19038/Baymax/blob/master/Screenshots/2.png "Dashboard Screenshot")
-![alt text](https://github.com/rishabh19038/Baymax/blob/master/Screenshots/3.png "Dashboard Screenshot")
-![alt text](https://github.com/rishabh19038/Baymax/blob/master/Screenshots/4.png "Dashboard Screenshot")
-![alt text](https://github.com/rishabh19038/Baymax/blob/master/Screenshots/5.png "Dashboard Screenshot")
+<img src="https://github.com/rishabh19038/Baymax/blob/master/Screenshots/1.png" width="250" height="444"/>    <img src="https://github.com/rishabh19038/Baymax/blob/master/Screenshots/2.png" width="250" height="444"/>    <img src="https://github.com/rishabh19038/Baymax/blob/master/Screenshots/3.png" width="250" height="444"/>    <img src="https://github.com/rishabh19038/Baymax/blob/master/Screenshots/4.png" width="250" height="444"/>    <img src="https://github.com/rishabh19038/Baymax/blob/master/Screenshots/5.png" width="250" height="444"/>
 
 ## Usage and Installation
 - **Step 1:** Clone the repository.
